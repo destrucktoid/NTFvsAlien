@@ -3,6 +3,7 @@
 	desc = "This is a generic skillbook. You really shouldn't have this but if you do, HI!"
 	icon = 'icons/obj/wizard.dmi'
 	icon_state = "scrollstamp"
+	w_class = WEIGHT_CLASS_SMALL
 	var/list/skills = list()
 	var/datum/job/role = null
 	var/title = ""
